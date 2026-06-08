@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Claude_test/static/css/main.ee922f3b.css",
+    "main.js": "/Claude_test/static/js/main.ef8fcb05.js",
+    "index.html": "/Claude_test/index.html",
+    "main.ee922f3b.css.map": "/Claude_test/static/css/main.ee922f3b.css.map",
+    "main.ef8fcb05.js.map": "/Claude_test/static/js/main.ef8fcb05.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee922f3b.css",
+    "static/js/main.ef8fcb05.js"
+  ]
+}
