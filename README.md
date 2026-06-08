@@ -2,6 +2,10 @@
 
 Reactで作成したシンプルで使いやすいタスク管理アプリケーションです。
 
+## 🌐 オンラインで試す
+
+**GitHub Pages で公開中**: [https://shohshohshoh.github.io/Claude_test/](https://shohshohshoh.github.io/Claude_test/)
+
 ## 機能
 
 - ✅ **タスク追加**: テキスト入力でタスクを追加できます
@@ -58,6 +62,25 @@ src/
 ├── index.jsx              # エントリーポイント
 └── index.css
 ```
+
+## 🚀 デプロイ
+
+### GitHub Pages へのデプロイ
+
+このプロジェクトは GitHub Pages で公開するように設定されています。
+
+#### ローカルからデプロイする場合
+
+```bash
+npm run deploy
+```
+
+このコマンドは以下を実行します：
+1. `npm run build` - 本番用ビルドを作成
+2. `gh-pages -d build` - ビルド結果を GitHub Pages にデプロイ
+
+デプロイ後、以下のURLでアプリにアクセスできます：
+`https://shohshohshoh.github.io/Claude_test/`
 
 ## 技術スタック
 
