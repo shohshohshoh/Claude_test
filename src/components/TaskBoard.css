@@ -1,0 +1,42 @@
+.task-board {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: calc(100vh - 150px);
+  padding: 20px;
+}
+
+.task-board-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 600px;
+  padding: 30px;
+}
+
+.task-stats {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1rem;
+  color: #666;
+}
+
+.stat-number {
+  font-weight: bold;
+  color: #667eea;
+  font-size: 1.2rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 40px 20px;
+  color: #999;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .task-board-container {
+    padding: 20px;
+  }
+}
